@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋 Yashwanth</h1>
+<h1 align="center">Hi 👋 Welcome to My GitHub ~ Yashwanth Karthik</h1>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/yashwanth-karthik-74648220b" target="_blank"><img src="https://img.shields.io/badge/-yashwanth-0077B5?style=for-the-badge&logo=LinkedIn&logoColor=white" alt="LinkedIn" /></a>
