@@ -1,6 +1,8 @@
-# Hi 👋 I'm Yashwanth
+# Hi 👋 Welcome to my GitHub
 
-### Quantum Computing | AI/ML | Python
+> Find me at **yashwanth** • Discord: **cooked_rice_curry** • Email: **imyash0722@gmail.com**
+
+![Profile Views](https://komarev.com/ghpvc/?username=imyash0722&label=Profile%20Views&color=0e75b6&style=flat)
 
 <p align="center">
   <a href="https://www.linkedin.com/in/yashwanth-karthik-74648220b" target="_blank"><img src="https://img.shields.io/badge/-yashwanth-0077B5?style=for-the-badge&logo=LinkedIn&logoColor=white" alt="LinkedIn" /></a>
@@ -8,9 +10,7 @@
   <a href="mailto:imyash0722@gmail.com"><img src="https://img.shields.io/badge/-imyash0722%40gmail.com-EA4335?style=for-the-badge&logo=Gmail&logoColor=white" alt="Gmail" /></a>
 </p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=imyash0722&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views Counter" />
-</p>
+
 
 ---
 
