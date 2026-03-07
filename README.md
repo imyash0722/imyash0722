@@ -1,16 +1,26 @@
-## Hi there 👋
+<h1 align="center">Hi, I'm Yashwanth 👋</h1>
 
-<!--
-**imyash0722/imyash0722** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  Quantum Computing • AI/ML • Python
+</p>
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 👨‍💻 About Me
+
+- Pursuing **quantum computing** and its applications  
+- Exploring **AI/ML**, from fundamentals to real-world projects  
+- Focusing on writing clean, efficient **Python** code  
+
+---
+
+### 🛠 Tech Focus
+
+- Languages: Python  
+- Domains: Quantum computing, Machine learning  
+
+---
+
+### 🌐 Connect
+
+- Discord: **cooked_rice_curry**
