@@ -1,8 +1,5 @@
 # Hi 👋 Welcome to my GitHub
 
-> Find me at **yashwanth** • Discord: **cooked_rice_curry** • Email: **imyash0722@gmail.com**
-
-![Profile Views](https://komarev.com/ghpvc/?username=imyash0722&label=Profile%20Views&color=0e75b6&style=flat)
 
 <p align="center">
   <a href="https://www.linkedin.com/in/yashwanth-karthik-74648220b" target="_blank"><img src="https://img.shields.io/badge/-yashwanth-0077B5?style=for-the-badge&logo=LinkedIn&logoColor=white" alt="LinkedIn" /></a>
@@ -68,3 +65,5 @@ while True:
   <img src="https://github-readme-stats.vercel.app/api?username=imyash0722&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=imyash0722&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </div>
+
+![Profile Views](https://komarev.com/ghpvc/?username=imyash0722&label=Profile%20Views&color=0e75b6&style=flat)
