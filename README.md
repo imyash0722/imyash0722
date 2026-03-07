@@ -14,8 +14,8 @@
 
 ```python
 while True:
-  self.pursuing("Quantum Computing")
-  self.exploring("AI/ML", from="fundamentals", to="real-world projects")
+  self.pursuing("B Tech CSE", focus="AI/ML")
+  self.exploring("Quantum Computing", from="fundamentals", to="real-world projects")
   self.focus_on("Writing clean and efficient Python code")
   self.love("Problem solving and open source")
 ```
