@@ -2,13 +2,15 @@
 
 <div align="center">
   <a href="https://www.linkedin.com/in/yashwanth-karthik-74648220b" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/in-yashwanth-0077B5?logo=linkedin&logoColor=white&labelColor=0077B5" alt="LinkedIn"/>
   </a>
+  &nbsp;&nbsp;&nbsp;
   <a href="https://discordapp.com/users/1463390908392149180" target="_blank">
-    <img src="https://img.shields.io/badge/Discord-%235865F2.svg?logo=discord&logoColor=white" alt="Discord"/>
+    <img src="https://img.shields.io/badge/cooked__rice__curry-5865F2?logo=discord&logoColor=white&labelColor=5865F2" alt="Discord"/>
   </a>
+  &nbsp;&nbsp;&nbsp;
   <a href="mailto:imyash0722@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white" alt="Gmail"/>
+    <img src="https://img.shields.io/badge/imyash0722%40gmail.com-EA4335?logo=gmail&logoColor=white&labelColor=EA4335" alt="Gmail"/>
   </a>
 </div>
 
@@ -29,11 +31,4 @@
 ### 🛠 Tech Focus
 
 - Languages: Python  
-- Domains: Quantum computing, Machine learning  
-
----
-
-### 🌐 Connect
-
-- Discord: **cooked_rice_curry**
-- Email: **imyash0722@gmail.com** or **imyash0722nps@gmail.com**
+- Domains: Quantum computing, Machine learning
