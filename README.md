@@ -1,4 +1,8 @@
-# Hi 👋 Welcome to my GitHub
+<h1 align="center">Hi 👋 Yashwanth</h1>
+
+> Find me at **yashwanth** • Discord: **cooked_rice_curry** • Email: **imyash0722@gmail.com**
+
+![Profile Views](https://komarev.com/ghpvc/?username=imyash0722&label=Profile%20Views&color=0e75b6&style=flat)
 
 
 <p align="center">
