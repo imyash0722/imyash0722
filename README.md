@@ -6,7 +6,7 @@
   <a href="mailto:imyash0722@gmail.com"><img src="https://img.shields.io/badge/-imyash0722%40gmail.com-EA4335?style=for-the-badge&logo=Gmail&logoColor=white" alt="Gmail" /></a>
 </p>
 
----
+<br>
 
 ## 👨‍💻 About Me
 
@@ -24,6 +24,8 @@ while True:
 - 💻 **Full-Stack Developer** learning and building cool projects
 - 📚 **Continuous Learner** always exploring new technologies
 - 🤝 **Collaborative** and open to working with amazing people
+
+<br>
 
 ## 🛠️ Tech Stack
 
@@ -45,10 +47,14 @@ while True:
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
+<br>
+
 ## 🎯 Focus Areas
 
 - ⚛️ **Quantum Computing** - Quantum algorithms and gate implementations
 - 🤖 **AI/ML** - Machine learning models and deep learning applications
+
+<br>
 
 <div align="right">
 
