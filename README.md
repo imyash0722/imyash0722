@@ -58,9 +58,6 @@ while True:
 
 ---
 
-![Profile Views](https://komarev.com/ghpvc/?username=imyash0722&label=Profile%20Views&color=0e75b6&style=flat)
-
-
 <div align="right">
 
 ![Visitor Count](https://komarev.com/ghpvc/?username=imyash0722&color=0077be)
