@@ -48,13 +48,16 @@ while True:
 [![Arch Linux](https://img.shields.io/badge/Arch%20Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white)](https://archlinux.org/)
 [![Tailscale](https://img.shields.io/badge/Tailscale-00A1DF?style=for-the-badge&logo=tailscale&logoColor=white)](https://tailscale.com/)
 [![Notepad++](https://img.shields.io/badge/Notepad++-90E59A?style=for-the-badge&logo=notepadplusplus&logoColor=black)](https://notepad-plus-plus.org/)
-[![Cursor IDE](https://img.shields.io/badge/Cursor%20IDE-00D4FF?style=for-the-badge&logo=cursor&logoColor=white)](https://www.cursor.com/)
 
 ### AI Assistant Tools & Libraries
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-1B1B1B?style=for-the-badge&logo=anthropic&logoColor=white)](https://claude.ai/)
 [![Gemini CLI](https://img.shields.io/badge/Gemini%20CLI-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/)
 [![Antigravity](https://img.shields.io/badge/Antigravity-FF6B6B?style=for-the-badge&logo=python&logoColor=white)](https://docs.python.org/3/library/antigravity.html)
 
+[![Cursor IDE](https://img.shields.io/badge/Cursor%20IDE-00D4FF?style=for-the-badge&logo=cursor&logoColor=white)](https://www.cursor.com/)
+[![OpenCode](https://img.shields.io/badge/OpenCode-FF6B6B?style=for-the-badge&logo=code&logoColor=white)](https://github.com/intel/openvino)
+[![Codex](https://img.shields.io/badge/Codex-FFD60A?style=for-the-badge&logo=openai&logoColor=black)](https://openai.com/blog/openai-codex/)
+[![OpenClaw](https://img.shields.io/badge/OpenClaw-9C27B0?style=for-the-badge&logo=github&logoColor=white)](https://github.com/openclaw)
 <br>
 
 ## 🎯 Focus Areas
