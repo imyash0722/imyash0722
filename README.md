@@ -56,8 +56,17 @@ while True:
 [![Cursor IDE](https://img.shields.io/badge/Cursor%20IDE-00D4FF?style=for-the-badge&logo=cursor&logoColor=white)](https://www.cursor.com/)
 [![OpenCode](https://img.shields.io/badge/OpenCode-FF6B6B?style=for-the-badge&logo=code&logoColor=white)](https://github.com/intel/openvino)
 [![Codex](https://img.shields.io/badge/Codex-FFD60A?style=for-the-badge&logo=openai&logoColor=black)](https://openai.com/blog/openai-codex/)
-[![OpenClaw](https://img.shields.io/badge/OpenClaw-9C27B0?style=for-the-badge&logo=github&logoColor=white)](https://github.com/openclaw)(https://docs.python.org/3/library/antigravity.html)![Cursor IDE](https://img.shields.io/badge/Cursor%20IDE-00D4FF?style=for-the-adge&logo=cursor&logoColor=white)](https://www.cursor.com/)[![OpenCode](https://img.shields.io/badge/OpenCode-FF6B6B?style=for-the-adge&logo=code&logoColor=white)](https://github.com/intel/openvino)[![Codex](https://img.shields.io/badge/Codex-FFD60A?style=for-the-badge&logo=openai&logoColor=black)](https://openai.com/blog/openai-codex/)
-[![OpenClaw](https://img.shields.io/badge/OpenClaw-9C27B0?style=for-the-badge&logo=github&logoColor=white)](https://github.com/openclaw)
+[![OpenClaw](https://img.shields.io/badge/OpenClaw-9C27B0?style=for-the-badge&logo=github&logoColor=white)](https://github.com/openclaw)(https://docs.python.org/3/library/antigravity.html)
+## 📡 MCP (Model Context Protocol)
+[playwright-mcp](https://github.com/microsoft/playwright-mcp)
+[mcp-ide-bridge](https://github.com/Mvp2o-ai/mcp-ide-bridge)
+[antigravity-skills](https://github.com/rmyndharis/antigravity-skills)
+[Figma-Context-MCP](https://github.com/GLips/Figma-Context-MCP)
+[genai-toolbox](https://github.com/googleapis/genai-toolbox)
+[github-mcp-server](https://github.com/github/github-mcp-server)
+[chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp)
+[BrowserMCP](https://github.com/BrowserMCP/mcp)
+
 <br>
 
 ## 🎯 Focus Areas
