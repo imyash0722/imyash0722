@@ -24,7 +24,15 @@ while True:
 
 <br>
 
-[[[[[[[[[[[[[[[[[[[[[[[[[[[[[](url)](url)](url)](url)](url)](url)](url)](url)](url)](url)](url)](url)](url)](url)](url)](url)](url)](url)](url)](url)](url)](url)](url)](url)](url)](url)](url)](url)](url)## 🛠️ Tech Stack
+[[](url)](url)[[[](url)](url)](url)[[[[[[[[[[[[[[[[[[[[[[[[[[[[[](url)](url)](url)](url)](url)](url)](url)](url)](url)](url)](url)](url)](url)](url)](url)](url)](url)](url)](url)](url)](url)](url)](url)](url)](url)](url)](url)](url)](url)## 🛠️ Tech Stack## 🛠️ My Tools
+
+Check out my [**tools repository**](https://github.com/imyash0722/tools) for a comprehensive collection of my developer tools, utilities, and complete tech stack!
+
+The tools repository includes:
+- **Tech Stack**: Languages, AI/ML frameworks, Developer Tools, and AI Assistant Tools
+- **Useful Software**: Curated open-source software recommendations
+- **MCP Resources**: Model Context Protocol implementations and tools
+
 
 ### Languages
 [![Python](https://img.shields.io/badge/Python-3776ab?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
