@@ -6,8 +6,6 @@
   <a href="mailto:imyash0722@gmail.com"><img src="https://img.shields.io/badge/-imyash0722%40gmail.com-EA4335?style=for-the-badge&logo=Gmail&logoColor=white" alt="Gmail" /></a>
 </p>
 
-<br>
-
 ## 👨‍💻 About Me
 
 ```python
