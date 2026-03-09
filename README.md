@@ -22,8 +22,6 @@ while True:
 - 📚 **Continuous Learner** always exploring new technologies
 - 🤝 **Collaborative** and open to working with amazing people
 
----
-
 ## 🛠️ My Tools
 
 Check out my [**tools repository**](https://github.com/imyash0722/tools) for a comprehensive collection of my developer tools, utilities, and complete tech stack!
@@ -32,3 +30,4 @@ The tools repository includes:
 - **Tech Stack**: Languages, AI/ML frameworks, Developer Tools, and AI Assistant Tools
 - **Useful Software**: Curated open-source software recommendations
 - **MCP Resources**: Model Context Protocol implementations and tools
+---
