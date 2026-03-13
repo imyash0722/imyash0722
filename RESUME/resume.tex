@@ -1,0 +1,171 @@
+%-------------------------
+% Resume in Latex
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Yashwanth Karthik} \\ \vspace{1pt}
+    \small +91 72599 10397 $|$ \href{mailto:imyash0722@gmail.com}{\underline{imyash0722@gmail.com}} $|$
+    \href{https://linkedin.com/in/yashwanth-karthik-74648220b}{\underline{linkedin.com/in/yashwanth-karthik-74648220b}} $|$
+    \href{https://github.com/imyash0722}{\underline{github.com/imyash0722}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {PES University, EC Campus}{Bengaluru, India}
+      {B.Tech in Computer Science and Engineering}{Aug. 2025 -- Present}
+    \resumeSubheading
+      {NPS Whitefield}{Bengaluru, India}
+      {Higher Secondary (12th) and Secondary (10th), CBSE}{Completed}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Team Vegavath, PES University}{Bengaluru, India}
+      {Programming Domain Member}{Oct. 2025 -- Present}
+      \resumeItemListStart
+        \resumeItem{Contributed to the January 2026 revamp of the Vegavath club website using Next.js, TypeScript, and Supabase}
+        \resumeItem{Participating in ongoing club projects across programming and engineering domains}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {PESUIO Course -- Quantum Computing with Qiskit}{PES University}
+      {Course Participant}{Oct. 2025 -- Nov. 2025}
+      \resumeItemListStart
+        \resumeItem{Completed a course on quantum computing using IBM's Qiskit Python toolkit}
+        \resumeItem{Built QState-Arena as the course project -- a gamified 2-qubit quantum state simulator with Bloch sphere visualization}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{AuraSafe} $|$ \emph{Python, Flet, SQLite, OpenCV, Vosk, Qrcode}}{Mar. 2026}
+          \resumeItemListStart
+            \resumeItem{Led a 4-person team at Kalpana 6.0 hackathon (IEEE, PES University) to build an offline-first Android safety app}
+            \resumeItem{Designed architecture with three modules: barcode product hazard scanner, emergency MediQR profile, and voice symptom triage}
+            \resumeItem{Implemented weighted risk scoring engine using EPA CPDat chemical database with Red/Yellow/Green severity classification}
+            \resumeItem{Built Android APK via Flet (Python to Flutter) with camera barcode integration and offline SQLite caching}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{QState-Arena} $|$ \emph{Python, Tkinter, Qiskit, Matplotlib, NumPy} $|$ \emph{PESUIO Course}}{Nov. 2025}
+          \resumeItemListStart
+            \resumeItem{Built a gamified 2-qubit quantum state simulator with interactive 3D Bloch sphere visualization and entanglement glow effects}
+            \resumeItem{Implemented 5 progressive levels from basic $|00\rangle$ preparation to Bell states and phase-entangled states}
+            \resumeItem{Integrated Qiskit AerSimulator for real-time statevector tracking, fidelity checking, and 200-shot measurement simulation}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, C/C++, Java, JavaScript, TypeScript, SQL, HTML/CSS} \\
+     \textbf{Frameworks}{: Flet, Tkinter, WxPython, Flask, Django, discord.py} \\
+     \textbf{Developer Tools}{: Git, GitHub, VS Code, Docker, Linux, Neovim, Playwright, PyInstaller} \\
+     \textbf{Libraries}{: NumPy, Matplotlib, Pillow, requests, BeautifulSoup4, OpenCV, Qiskit, pymongo, pyexcel, xlwings, qrcode, cryptography, vosk, rich}
+    }}
+ \end{itemize}
+
+%-------------------------------------------
+\end{document}
