@@ -24,7 +24,7 @@ while True:
 
 ## 📄 Resume
 
-Check out my ![**RESUME**](./RESUME/resume.pdf) — built with LaTeX.
+Check out my [**RESUME**](./RESUME/resume.pdf) — built with LaTeX.
 
 ## 🛠️ My Tools
 
