@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋 Welcome to My GitHub</h1>
+<![CDATA[<h1 align="center">Hi 👋 Welcome to My GitHub</h1>
 <p align="center">
   <a href="https://www.linkedin.com/in/yashwanth-karthik-74648220b" target="_blank"><img src="https://img.shields.io/badge/-yashwanth-0077B5?style=for-the-badge&logo=LinkedIn&logoColor=white" alt="LinkedIn"></a>
   <a href="https://discordapp.com/users/1463390908392149180" target="_blank"><img src="https://img.shields.io/badge/-cooked__rice__curry-5865F2?style=for-the-badge&logo=Discord&logoColor=white" alt="Discord"></a>
@@ -22,6 +22,10 @@ while True:
 - 📚 **Continuous Learner** always exploring new technologies
 - 🤝 **Collaborative** and open to working with amazing people
 
+## 📄 Resume
+
+Check out my [**RESUME**](https://github.com/imyash0722/RESUME) — built with LaTeX and AI-assisted tooling.
+
 ## 🛠️ My Tools
 
 Check out my [**tools repository**](https://github.com/imyash0722/tools) for a comprehensive collection of my developer tools, utilities, and complete tech stack!
@@ -31,3 +35,4 @@ The tools repository includes:
 - **Useful Software**: Curated open-source software recommendations
 - **MCP Resources**: Model Context Protocol implementations and tools
 ---
+]]>
