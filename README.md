@@ -25,5 +25,3 @@ while True:
 ## 📄 Resume
 
 Check out my [**RESUME**](./RESUME/resume.pdf) — built with LaTeX (last updated at March 13, 2026).
-
----
