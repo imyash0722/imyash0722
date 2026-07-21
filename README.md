@@ -25,15 +25,6 @@ while True:
 
 Check out my [**RESUME**](./RESUME/resume.pdf) — built with LaTeX (last updated at March 13, 2026).
 
-## 🛠️ My Tools
-
-Check out my [**tools repository**](https://github.com/imyash0722/tools) for a comprehensive collection of my developer tools, utilities, and complete tech stack!
-
-The tools repository includes:
-- **Tech Stack**: Languages, AI/ML frameworks, Developer Tools, and AI Assistant Tools
-- **Useful Software**: Curated open-source software recommendations
-- **MCP Resources**: Model Context Protocol implementations and tools
-
 ---
 
 *Credits for the R2D2 pixel art go to [Nick H.P.](https://www.flickr.com/photos/196634095@N04/52401218943).*
