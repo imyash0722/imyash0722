@@ -16,7 +16,7 @@ while True:
 
 - 🔬 **Quantum Computing** enthusiast exploring quantum gates and qubits
 - 🤖 **AI/ML** passionate about building intelligent systems
-- 🐍 **Python** lover focusing on clean code and best practices
+- 🦀 **Python n' Rust** lover focusing on clean code and best practices
 - 💻 **Full-Stack Developer** learning and building cool projects
 - 📚 **Continuous Learner** always exploring new technologies
 - 🤝 **Collaborative** and open to working with people :D
