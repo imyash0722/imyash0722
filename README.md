@@ -24,4 +24,4 @@ while True:
 ## 📄 Resume
 
 Check out my [**RESUME**](./RESUME/resume.pdf) — built with LaTeX (last updated at March 13, 2026).
-> *Credits for the R2D2 pixel art go to [Nick H.P.](https://www.flickr.com/photos/196634095@N04/52401218943).*
+> *Credits for the R2D2 pixel art go to [Nick H.P.](https://www.flickr.com/photos/196634095@N04/52401218943)*
