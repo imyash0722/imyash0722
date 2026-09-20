@@ -1,5 +1,5 @@
 # Resume
-![Resume Preview](resume.jpg)
+![Resume Preview](RESUME.jpg)
 
 ## This resume template is based on and inspired by:
 
