@@ -17,8 +17,11 @@
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
-\input{glyphtounicode}
-
+\usepackage{iftex}
+\ifpdftex
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -30,8 +33,8 @@
 \addtolength{\oddsidemargin}{-0.5in}
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.5in}
-\addtolength{\textheight}{1.0in}
+\addtolength{\topmargin}{-.65in}
+\addtolength{\textheight}{1.3in}
 
 \urlstyle{same}
 
@@ -41,11 +44,8 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
-
-% Ensure that generate pdf is machine readable/ATS parsable
-\pdfgentounicode=1
+  \vspace{-5pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-4pt}]
 
 %-------------------------
 % Custom commands
@@ -60,46 +60,35 @@
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-\newcommand{\resumeSubSubheading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-7pt}
+    \end{tabular*}\vspace{-6pt}
 }
 
 \newcommand{\resumeProjectHeading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \small#1 & #2 \\
-    \end{tabular*}\vspace{-7pt}
+    \end{tabular*}\vspace{-6pt}
 }
-
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
 
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{-4pt}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-4pt}}
 
 %-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 \begin{document}
 
 %----------HEADING----------
 \begin{center}
-    \textbf{\Huge \scshape Yashwanth Karthik} \\ \vspace{1pt}
+    \textbf{\Huge \scshape Yashwanth Karthik} \\ \vspace{2pt}
     \small +91 72599 10397 $|$ \href{mailto:imyash0722@gmail.com}{\underline{imyash0722@gmail.com}} $|$
     \href{https://linkedin.com/in/yashwanth-karthik-74648220b}{\underline{linkedin.com/in/yashwanth-karthik-74648220b}} $|$
     \href{https://github.com/imyash0722}{\underline{github.com/imyash0722}}
 \end{center}
-
 
 %-----------EDUCATION-----------
 \section{Education}
@@ -112,46 +101,60 @@
       {Higher Secondary (12th) and Secondary (10th), CBSE}{Completed}
   \resumeSubHeadingListEnd
 
-
 %-----------EXPERIENCE-----------
 \section{Experience}
   \resumeSubHeadingListStart
-
     \resumeSubheading
       {Team Vegavath, PES University}{Bengaluru, India}
-      {Programming Domain Member}{Oct. 2025 -- Present}
+      {Robotics Vice Head}{Oct. 2025 -- Present}
       \resumeItemListStart
-        \resumeItem{Contributed to the January 2026 revamp of the Vegavath club website using Next.js, TypeScript, and Supabase}
-        \resumeItem{Participating in ongoing club projects across programming and engineering domains}
+        \resumeItem{Leading club robotics engineering initiatives and 15kg featherweight combat robot development}
+        \resumeItem{Contributed to revamp of the Vegavath club website using Next.js, TypeScript, and Supabase}
       \resumeItemListEnd
-
     \resumeSubheading
       {PESUIO Course -- Quantum Computing with Qiskit}{PES University}
       {Course Participant}{Oct. 2025 -- Nov. 2025}
       \resumeItemListStart
-        \resumeItem{Completed a course on quantum computing using IBM's Qiskit Python toolkit}
-        \resumeItem{Built QState-Arena as the course project -- a gamified 2-qubit quantum state simulator with Bloch sphere visualization}
+        \resumeItem{Completed hands-on coursework on quantum computing using IBM's Qiskit Python toolkit}
+        \resumeItem{Explored quantum gates, circuit construction, superposition, and entanglement algorithms}
       \resumeItemListEnd
-
   \resumeSubHeadingListEnd
-
 
 %-----------PROJECTS-----------
 \section{Projects}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\textbf{AuraSafe} $|$ \emph{Python, Flet, SQLite, OpenCV, Vosk, Qrcode}}{Mar. 2026}
+          {\href{https://github.com/T1n777/Tinarchy}{\textbf{Tinarchy}} $|$ \emph{Python, Linux, Nginx, Server-Sent Events, Tailscale, systemd}}{Aug. 2026 -- Present}
           \resumeItemListStart
-            \resumeItem{Led a 4-person team at Kalpana 6.0 hackathon (IEEE, PES University) to build an offline-first Android safety app}
-            \resumeItem{Designed architecture with three modules: barcode product hazard scanner, emergency MediQR profile, and voice symptom triage}
-            \resumeItem{Implemented weighted risk scoring engine using EPA CPDat chemical database with Red/Yellow/Green severity classification}
-            \resumeItem{Built Android APK via Flet (Python to Flutter) with camera barcode integration and offline SQLite caching}
+            \resumeItem{Architected a modular dashboard and server control center with real-time SSE delta telemetry streaming ($<$500B dynamic frames, $>$50\% bandwidth reduction) and thread-safe in-memory API micro-caching (up to 134x speedup)}
+            \resumeItem{Engineered direct Tailscale UNIX domain socket resolution ($<$2ms WHOIS latency), autonomous closed-loop thermal PID governor, multicore network packet steering (RPS/RFS), and adaptive ZRAM/disk-swap kernel autotuning}
           \resumeItemListEnd
+
       \resumeProjectHeading
-          {\textbf{QState-Arena} $|$ \emph{Python, Tkinter, Qiskit, Matplotlib, NumPy} $|$ \emph{PESUIO Course}}{Nov. 2025}
+          {\href{https://github.com/T1n777/SpectreFlow}{\textbf{SpectreFlow}} $|$ \emph{Python, Docker, Radare2, YARA, NetworkX, Tkinter, pefile} $|$ \emph{GENESYS 2.0}}{Mar. 2026}
           \resumeItemListStart
-            \resumeItem{Built a gamified 2-qubit quantum state simulator with interactive 3D Bloch sphere visualization and entanglement glow effects}
-            \resumeItem{Implemented 5 progressive levels from basic $|00\rangle$ preparation to Bell states and phase-entangled states}
+            \resumeItem{Built an end-to-end malware analysis suite combining static binary inspection, dynamic process/network/filesystem monitoring, and containerized Docker sandboxing for the GENESYS 2.0 hackathon at PES University}
+            \resumeItem{Implemented PE section entropy analysis, YARA threat scanning, Control Flow Graph (CFG) generation via Radare2, automated risk scoring, and VirusTotal / MalwareBazaar threat intelligence lookup}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\href{https://github.com/imyash0722/mat}{\textbf{mat.nvim}} $|$ \emph{Rust, Neovim Lua API, pulldown-cmark, syntect}}{Sep. 2026}
+          \resumeItemListStart
+            \resumeItem{Engineered a sub-5ms in-editor Markdown preview plugin for Neovim powered by a standalone Rust rendering engine with TrueColor ANSI syntax highlighting, zero browser overhead, and zero runtime dependencies}
+            \resumeItem{Implemented single-keystroke in-place mode switching between rendered view and raw editing buffer with cursor line sync, live unwritten buffer previewing, and full GFM table/callout parsing}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\href{https://github.com/imyash0722/niri-rice}{\textbf{niri-rice}} $|$ \emph{Rust, Wayland, Niri, Shell, CSS, Linux}}{Jul. 2026 -- Present}
+          \resumeItemListStart
+            \resumeItem{Built a modular, power-optimized scrollable tiling Wayland desktop environment featuring dynamic Matugen Material You palette generation across UI components, terminals, and lockscreens}
+            \resumeItem{Developed \texttt{rice-ctl} in Rust for sub-second system theming, wallpaper transitions, and automated multi-package installation scripts with custom Waybar and PAM fingerprint unlock}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\href{https://github.com/imyash0722/QState-Arena}{\textbf{QState-Arena}} $|$ \emph{Python, Tkinter, Qiskit, Matplotlib, NumPy}}{Nov. 2025}
+          \resumeItemListStart
+            \resumeItem{Built a gamified 2-qubit quantum state simulator with interactive 3D Bloch sphere visualization, entanglement glow effects, and 5 progressive puzzle levels from $|00\rangle$ to Bell states}
             \resumeItem{Integrated Qiskit AerSimulator for real-time statevector tracking, fidelity checking, and 200-shot measurement simulation}
           \resumeItemListEnd
     \resumeSubHeadingListEnd
@@ -160,10 +163,10 @@
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Python, C/C++, Java, JavaScript, TypeScript, SQL, HTML/CSS} \\
-     \textbf{Frameworks}{: Flet, Tkinter, WxPython, Flask, Django, discord.py} \\
-     \textbf{Developer Tools}{: Git, GitHub, VS Code, Docker, Linux, Neovim, Playwright, PyInstaller} \\
-     \textbf{Libraries}{: NumPy, Matplotlib, Pillow, requests, BeautifulSoup4, OpenCV, Qiskit, pymongo, pyexcel, xlwings, qrcode, cryptography, vosk, rich}
+     \textbf{Languages}{: Python, C/C++, Java, JavaScript, TypeScript, SQL, Bash/Zsh, HTML/CSS} \\
+     \textbf{Frameworks \& Libraries}{: React, Next.js, Tailwind CSS, Tokio, Clap, Tkinter, Flask, Django, OkHttp, Qiskit} \\
+     \textbf{Developer Tools}{: Git, GitHub Actions, Linux, Neovim, Docker, Android Studio, VS Code, Playwright, Nginx} \\
+     \textbf{Core Domains}{: Systems Programming, Event-Driven Architecture, Full-Stack Development, Security Analysis}
     }}
  \end{itemize}
 
