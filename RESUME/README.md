@@ -2,7 +2,6 @@
 
 My personal LaTeX resume.
 ![Resume Preview](resume.jpg)
-For a comprehensive view of my developer tools and software stack, check out [imyash0722/tools](https://github.com/imyash0722/tools).
 
 ## This resume template is based on and inspired by:
 
