@@ -1,6 +1,4 @@
 # Resume
-
-My personal LaTeX resume.
 ![Resume Preview](resume.jpg)
 
 ## This resume template is based on and inspired by:
